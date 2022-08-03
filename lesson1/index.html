@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="created_book" style="margin-left: 20%">
+        <input type="text" class="issd_cr_crcr" placeholder="id" style='width: 15%;'>
+        <input type="text" class="auth_cr_crcr" placeholder="author" style='width: 15%;'>
+        <input type="text" class="name_knigi_cr_crcr" placeholder="name book" style='width: 15%;'>
+        <input type="text" class="year_cr_crcr" placeholder="year" style='width: 15%;'>
+        <a class="waves-effect waves-light btn create_book">create book</a>
+    </div>
+    <div class="update_book" style="margin-left: 20%">
+        <input type="text" id="id_cr" placeholder="id" style = 'width: 15%;'>
+        <input type="text" id="auth_cr" placeholder="author" style = 'width: 15%;'>
+        <input type="text" id="name_knigi_cr" placeholder="name book" style = 'width: 15%;'>
+        <input type="text" id="year_cr" placeholder="year" style = 'width: 15%;'>
+        <a class="waves-effect waves-light btn update_book">update info book</a>
+    </div>
+    <div class="search_book" style="margin-left: 20%">
+        <input type="text" class="id_cr_sr" placeholder="id" style = 'width: 15%;'>
+        <a class="waves-effect waves-light btn search_book_btn">search book</a>
+    </div>
+    <div class="delete_book" style="margin-left: 20%">
+        <input type="text" class="id_cr_dl" placeholder="id" style = 'width: 15%;'>
+        <button class="delete_booook_btn waves-effect waves-light btn">delete book</button>
+    </div>
+    <div class="book" style="border: 1px solid black; width:50%; margin: 0 auto; height: 500px;">
+    
+    </div>
+    
+</body>
+</html>
