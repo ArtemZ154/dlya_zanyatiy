@@ -1,0 +1,6 @@
+.btn_sort:active, .btn_sort:focus {
+    outline: none;
+}
+.btn_sort::-moz-focus-inner {
+    border: 0;
+}

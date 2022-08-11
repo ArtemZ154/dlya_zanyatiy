@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <header class="container">
+        <div class="container_sort row" style="margin-top: 8px;">
+            <button class="btn_sort alphabet_sort red darken-1 col s2 push-s1 waves-effect waves-light btn">Алфавиту</button>
+            <button class="btn_sort cost_sort red darken-1 col s2 push-s2 waves-effect waves-light btn">Цене</button>
+            <button class="btn_sort popularity_sort red darken-1 col s2 push-s3 waves-effect waves-light btn">Популярности</button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="forAll col s9" style="padding-right: 150px;">
+                <div class="allCards">
+                    <div class="divCards row">
+                        <div class="cards col s2 pull" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px">
+                            <img src="81DCdmM-VvL._SL1500_.jpg" alt="" style="height: 150px; margin: 0 auto; text-align: center;">
+                        </div>
+                        <div class="cards col s2 push-s1" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s2" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s3" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                    </div>
+                    <div class="divCards row">
+                        <div class="cards col s2 pull" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s1" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s2" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s3" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                    </div>
+                    <div class="divCards row">
+                        <div class="cards col s2 pull" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s1" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s2" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s3" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                    </div>
+                    <div class="divCards row">
+                        <div class="cards col s2 pull" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s1" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s2" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                        <div class="cards col s2 push-s3" style="border-radius: 15px; border: 1px solid black; height: 250px; width: 200px; margin-top: 30px"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter col s3" style="padding-left: 150px;">
+                <div class="divFilter container" style="border-radius: 15px; border: 1px solid black; height: 500px; width: 200px; margin-top: 30px">
+                    <section class="costFilter row" style="margin-right: 150px; margin-left: 0px">
+                        <div class="filterSectionName row">
+                            <h6 style="margin-left: 50px;">Цена</h6>
+                        </div>
+                        <span class="rangeCost" data-from-text="от" data-to-text="до" style="display: flex; width: 180px; padding-left: 8px; margin-top: -20px;">
+                            <p class="" style="padding-right: 10px">от</p>
+                            <input class="" style="padding-right: 10px" type="text" data-type="min" value="855" name="filterCostMin">
+                            <p class="" style="padding-right: 10px">до</p>
+                            <input class="" style="padding-right: 10px" type="text" data-type="max" value="21957" name="filterCostMax">
+                        </span>
+                    </section>
+                    <section class="costFilter row" style="margin-right: 150px; margin-left: 0px">
+                        <div class="filterSectionName">
+                            <h6 style="margin-left: 50px;">Цена</h6>
+                        </div>
+                    </section>
+                    <section class="costFilter row" style="margin-right: 150px; margin-left: 0px">
+                        <div class="filterSectionName">
+                            <h6 style="margin-left: 50px;">Цена</h6>
+                        </div>
+                    </section>
+                    <section class="costFilter row" style="margin-right: 150px; margin-left: 0px">
+                        <div class="filterSectionName">
+                            <h6 style="margin-left: 50px;">Цена</h6>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
